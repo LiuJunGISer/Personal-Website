@@ -91,8 +91,8 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(260px, 380px);
-  gap: clamp(36px, 7vw, 92px);
+  grid-template-columns: 1fr;
+  gap: 36px;
   align-items: center;
   min-height: calc(100vh - 68px);
   padding: clamp(56px, 8vw, 104px) clamp(20px, 6vw, 92px) 72px;
@@ -159,13 +159,15 @@ h1 {
 
 .profile-panel {
   margin: 0;
+  width: min(100%, 900px);
 }
 
 .profile-panel img {
   display: block;
   width: 100%;
+  height: auto;
+  max-height: none;
   aspect-ratio: auto;
-  max-height: 560px;
   object-fit: contain;
   border: 1px solid var(--line);
   border-radius: 8px;
