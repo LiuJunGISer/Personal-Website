@@ -164,7 +164,8 @@ h1 {
 .profile-panel img {
   display: block;
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: auto;
+  max-height: 560px;
   object-fit: contain;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -349,10 +350,6 @@ footer p {
   .timeline-card,
   .video-section {
     grid-template-columns: 1fr;
-  }
-
-  .profile-panel {
-    max-width: 360px;
   }
 }
 
