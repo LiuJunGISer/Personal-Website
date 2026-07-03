@@ -15,7 +15,7 @@ const translations = {
     "home.interest2": "Climate and precipitation variability",
     "home.interest3": "Urban heat island analysis",
     "home.interest4": "WebGIS and spatial visualization",
-    "home.photoNote": "Replace assets/profile.jpg with your own portrait.",
+    "home.photoNote": "Hello!",
     "section.educationLabel": "Education",
     "section.educationTitle": "Academic Background",
     "education.school": "Nanjing Normal University",
