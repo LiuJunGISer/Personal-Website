@@ -80,7 +80,7 @@ const translations = {
     "section.contactLabel": "Contact",
     "section.contactTitle": "Get in Touch",
     "contact.location": "Nanjing, China",
-    "footer.text": "Built with HTML, CSS, and JavaScript for GitHub Pages."
+    "footer.text": "Fueled by curiosity."
   },
   zh: {
     "nav.home": "首页",
@@ -163,7 +163,7 @@ const translations = {
     "section.contactLabel": "联系方式",
     "section.contactTitle": "联系我",
     "contact.location": "中国南京",
-    "footer.text": "使用 HTML、CSS 和 JavaScript 构建，可部署到 GitHub Pages。"
+    "footer.text": "一直在路上。"
   }
 };
 
